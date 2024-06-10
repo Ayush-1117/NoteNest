@@ -1,6 +1,7 @@
 .container {
   height: 100vh;
-  background-color: var(--bg-blue);
+  /* background-color: var(--bg-blue); */
+  background: #F7ECDC;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -10,8 +11,10 @@
   display: flex;
   align-items: center;
   padding: 0 3rem;
-  background-color: var(--head-blue);
-  color: white;
+  /* background-color: var(--head-blue); */
+  background: #E8E8E8;
+  /* color: white; */
+  color: black;
   justify-content: space-between;
   height: 10%;
 }
@@ -83,7 +86,7 @@
 .message {
   width: 100%;
   outline: none;
-  border: 1rem solid var(--head-blue);
+  border: 1rem solid #E8E8E8;
   resize: none;
   padding: 1rem;
   padding-right: 2rem;

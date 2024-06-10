@@ -14,7 +14,7 @@ export const Sidebar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.heading}>
-        <h1>Pocket Notes</h1>
+        <h2>Pocket Notes</h2>
       </div>
 
       <div className={styles.group_container}>
@@ -48,7 +48,7 @@ export const Sidebar = () => {
       </div>
 
       <div onClick={() => setOpenModal(true)} className={styles.create_group}>
-        +
+        + Create Notes Group
       </div>
 
       <CreateGroupModal openModal={openModal} setOpenModal={setOpenModal} />
