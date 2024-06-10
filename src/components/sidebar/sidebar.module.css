@@ -68,8 +68,10 @@
   /* border: 1px solid; */
   cursor: pointer;
 
+  
+
   &:hover {
-    background: rgb(232, 232, 232);
+    background: #F7ECDC;
     transition: all 0.2s;
   }
 }

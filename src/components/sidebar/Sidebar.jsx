@@ -28,7 +28,8 @@ export const Sidebar = () => {
             className={styles.single_group}
             style={{
               background:
-                currentActiveGroup === group.id && "rgb(232, 232, 232)",
+                currentActiveGroup === group.id && "#F7ECDC", borderTopLeftRadius:"20px",
+                borderBottomLeftRadius:"20px",marginLeft:"10px"
             }}
             onClick={() => {
               // setActive(true);
